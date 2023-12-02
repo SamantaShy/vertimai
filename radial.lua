@@ -23,8 +23,8 @@ local Translations = {
         entered_trunk = "Jūs esate bagažinėje"
     },
     info = {
-        no_variants = "Atrodo, kad nėra jokių variantų šiam",
-        wrong_ped = "Šis ped modelis neleidžia šiai parinkčiai",
+        no_variants = "Atrodo, kad nėra jokių variantų",
+        wrong_ped = "Šis modelis neleidžia šiai parinkčiai",
         nothing_to_remove = "Jūs atrodo neturite ko pašalinti",
         already_wearing = "Jūs jau tai vilkite",
         switched_seats = "Dabar esate ant %{seat}"
