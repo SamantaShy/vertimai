@@ -1,6 +1,6 @@
 local Translations = {
     error = {
-        no_people_nearby = "Nėra žaidėjų šalia",
+        no_people_nearby = "tESTAA",
         no_vehicle_found = "Automobilio nerasta",
         extra_deactivated = "Funkcija %{extra} išjungta",
         extra_not_present = "Funkcijos %{extra} nėra šiame automobilyje",
