@@ -1839,10 +1839,10 @@ Translations = {
                 Target2 = "PABAIGTI DARBELĮ",
                 key_3 = "~p~[E]~wu~ - PAIMTI",
                 Target3 = "PAIMTI",
-                start = "Užsakymai yra automobilio bagažinėje.",  ",  
-                delivered = "Užsakymas pristatytas. Vykite pas kitą klientą."  "  ,
+                start = "Užsakymai yra automobilio bagažinėje.",  
+                delivered = "Užsakymas pristatytas. Vykite pas kitą klientą.",
                 needtool = "Užsakovams jums paduos reikalingus įrankius darbeliui.",
-                cancel = "Tu atsisakei šio darbelio.",",
+                cancel = "Tu atsisakei šio darbelio.",
                 finish  = "Gerai, dabar grįžk pas darbelio užsakovą ir pranešk, jog atlikai pabaigei darbelį.",
                 endactivity = "Puiku! Pabaigei darbą!",
                 pay = "Tau buvo sumokėta: $"
@@ -2570,13 +2570,14 @@ Translations = {
                     "Davai!",
                     "Jokių problemų!",
                     "Žinoma, seneliumbai!",
-                    "Sutinku!"
+                    "Sutinku!",
                     "Gali manimi pasitikėti!",
                     "Be abejonės!",
                     "Man būtų malonu!",
                     "Gerai!",
                     "Ko mes laukiam? Pradėkim!",
                 },
+                
                 Text_No = {
                     "Sorry, bet ne.",
                     "Pusk į šoną!",
