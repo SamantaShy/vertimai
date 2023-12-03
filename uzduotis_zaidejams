@@ -241,7 +241,7 @@ Translations = {
                     "Sveiki prisijungę prie mūsų vargšų kaimiečių, atsiraitom rankoves ir kimbam į darbus, žolės pačios neišsiravės!",
                     "Privief, kolega, kad tu žinotum, kaip man atsibodo ta Stasia su savo daržais, aš baigiu praplikti. Stasia, tai kaip Stasia, bet jau tos žolės lysvėse, kaip didžiausias mano galvos skausmas, nesikuklink, padėk man.",
                     "Ko čia stovi, greit į daržą ir dirbam, neturiu aš laiko čia kalbėti su tavimi.",
-                    "Labas, aš ieškau drąsios sielos, kuri padėtų man atlikti savo misiją - išnaikinti piktžoles. Nepageidaujami svečiai mat atsirado. Gerai atlyginsiu už tavo didvyriškas pastangas ir atliktą darbą!"",
+                    "Labas, aš ieškau drąsios sielos, kuri padėtų man atlikti savo misiją - išnaikinti piktžoles. Nepageidaujami svečiai mat atsirado. Gerai atlyginsiu už tavo didvyriškas pastangas ir atliktą darbą!",
                     "Gera pas močiutę vasarą pabūti, bet turiu problemą, čia gyvena musė.. Haha, būtų gerai, pas mus apsigyveno piktžolės, gal tu sugebėtum jomis atsikratyti?",
                 },
                 Text_Yes = {
@@ -440,7 +440,7 @@ Translations = {
                 Target3 = "PAITMI",
                 key_4 = "~p~[E]~wu~ - SUSIMOKĖTI",
                 Target4 = "SUSIMOKĖTI",
-                start = "Eikite ten, kur nurodė eiti asmuo, kuris jums davė darbelį.",    ", 
+                start = "Eikite ten, kur nurodė eiti asmuo, kuris jums davė darbelį.",
                 taketool = "Paimk prekes ir eik susimokėti.",
                 cancel = "Tu atsisakei šio darbelio.",
                 gocashier = "Eik prie kasos ir susimokėk už prekes.",
