@@ -11,19 +11,6 @@ Translations = {
         Text_4 = "Tau reikia x{number} {item} kad galėtum pradėti šį darbelį.",
 
         TextUI_1 = "PAPRASTA",
-        TextUI_2 = "REIKS PASISTENGTI",Translations = {
-
-    ['language'] = "EN", -- EN (English), ES (Spanish) or FR (French). In addition to the languages already made, you can add as many languages as you want.
-
-    ['EN'] = {
-
-        Text_1 = "~p~[E]~wu~ ~m~Pasikalbėk su ~u~",
-        Target = "Pasikalbėk su ",
-        Text_2 = "Šis darbelis jau padarytas, užsakovui šiuo metu nieko nereikia.",
-        Text_3 = "Šiandien negali atlikti daugiau darbelių, turi palaukti.",
-        Text_4 = "Tau reikia x{number} {item} kad galėtum pradėti šį darbelį.",
-
-        TextUI_1 = "PAPRASTA",
         TextUI_2 = "REIKS PASISTENGTI",
         TextUI_3 = "SUNKUS DARBAS",
         TextUI_4 = "NELEGALU",
@@ -5793,7 +5780,20 @@ Translations = {
             }
         },
     },
-}
+}Translations = {
+
+    ['language'] = "EN", -- EN (English), ES (Spanish) or FR (French). In addition to the languages already made, you can add as many languages as you want.
+
+    ['EN'] = {
+
+        Text_1 = "~p~[E]~wu~ ~m~Pasikalbėk su ~u~",
+        Target = "Pasikalbėk su ",
+        Text_2 = "Šis darbelis jau padarytas, užsakovui šiuo metu nieko nereikia.",
+        Text_3 = "Šiandien negali atlikti daugiau darbelių, turi palaukti.",
+        Text_4 = "Tau reikia x{number} {item} kad galėtum pradėti šį darbelį.",
+
+        TextUI_1 = "PAPRASTA",
+        TextUI_2 = "REIKS PASISTENGTI",
         TextUI_3 = "SUNKUS DARBAS",
         TextUI_4 = "NELEGALU",
         TextUI_5 = "INFORMACIJOS MISIJA",
