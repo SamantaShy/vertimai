@@ -323,7 +323,7 @@ Translations = {
                 Text_No = {
                     "Sorry, bet ne.",
                     "Norėčiau, kad galėčiau, bet negaliu.",
-                    "Deja, turiu kitų reikalų.",,
+                    "Deja, turiu kitų reikalų.",
                     "Neįmanoma.",
                     "Nedarysiu to.",
                     "Ko dar įsinorėsi? Ne!",
@@ -629,7 +629,7 @@ Translations = {
                     "Man būtų malonu!",
                     "Tai čia drąsiai, važiuojam!",
                     "Ko mes laukiam? Pradėkim!",
-                    "Gerai!",,
+                    "Gerai!",
                 },
                 Text_No = {
                     "Sorry, bet ne.",
@@ -2637,7 +2637,7 @@ Translations = {
                     "Ne, negaliu.",
                     "Ne, paprašyk kieno nors kito.",
                     "Nejuokauk, tikrai ne.",
-                    "Neįmanoma mano pagalba.",,
+                    "Neįmanoma mano pagalba.",
                 },
             },
         
