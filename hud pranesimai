@@ -1,0 +1,22 @@
+local Translations = {
+    notify = {
+        ["hud_settings_loaded"] = "HUD nustatymai įkelti!",
+        ["hud_restart"] = "HUD yra perkraunamas!",
+        ["hud_start"] = "HUD dabar paleistas!",
+        ["hud_command_info"] = "Ši komanda iš naujo nustato jūsų esamus HUD nustatymus!",
+        ["load_square_map"] = "Kvadratinio žemėlapio įkėlimas...",
+        ["loaded_square_map"] = "Kvadratinis žemėlapis įkeltas!",
+        ["load_circle_map"] = "Apskritas žemėlapio įkėlimas...",
+        ["loaded_circle_map"] = "Apskritas žemėlapis įkeltas!",
+        ["cinematic_on"] = "Kino režimas įjungtas!",
+        ["cinematic_off"] = "Kino režimas išjungtas!",
+        ["engine_on"] = "Variklis įjungtas!",
+        ["engine_off"] = "Variklis išjungtas!",
+        ["low_fuel"] = "Mažas kuro lygis!",
+        ["access_denied"] = "Neturite teisės!",
+        ["stress_gain"] = "Jaučiate daugiau streso!",
+        ["stress_removed"] = "Jaučiate mažiau streso!"
+    }
+}
+
+Lang = Locale:new({phrases = Translations, warnOnMissing = true})
