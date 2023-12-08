@@ -1,0 +1,41 @@
+local Translations = {
+    -------LT----------
+    description = {
+        torso_description = "naudokite šią komandą, norėdami nuimti kūno drabužį",
+        tshirt_description = "naudokite šią komandą, norėdami nuimti marškinėlius",
+        arms_description = "naudokite šią komandą, norėdami nuimti pirštines",
+        jeans_description = "naudokite šią komandą, norėdami nuimti džinsus",
+        shoes_description = "naudokite šią komandą, norėdami nuimti batus",
+        bag_description = "naudokite šią komandą, norėdami nuimti rankinę",
+        chain_description = "naudokite šią komandą, norėdami nuimti grandinę",
+        mask_description = "naudokite šią komandą, norėdami nuimti kaukę",
+        helmet_description = "naudokite šią komandą, norėdami nuimti šaliką",
+        ears_description = "naudokite šią komandą, norėdami nuimti auskarus",
+        watches_description = "naudokite šią komandą, norėdami nuimti laikrodį",
+        glasses_description = "naudokite šią komandą, norėdami nuimti akinius",
+        bracelet_description = "naudokite šią komandą, norėdami nuimti apyrankę" 
+    },
+    progressbar = {
+        --Progresinė juosta--
+        torso_progressbar = "nuimamas kūno drabužis...",
+        tshirt_progressbar = "nuimami marškinėliai...",
+        arms_progressbar = "nuimamos pirštinės...",
+        jeans_progressbar = "nuimami džinsai...",
+        shoes_progressbar = "nuimami batai...",
+        bag_progressbar = "nuimama rankinė...",
+        chain_progressbar = "nuimama grandinė...",
+        mask_progressbar = "nuimama kaukė...",
+        helmet_progressbar = "nuimamas šalikas...",
+        ears_progressbar = "nuimami auskarai...",
+        watches_progressbar = "nuimamas laikrodis...",
+        glasses_progressbar = "nuimami akiniai...",
+        bracelet_progressbar = "nuimama apyrankė..."
+    }
+}
+
+Lang = Lang or Locale:new({
+    phrases = Translations,
+    warnOnMissing = true
+})
+
+--Panaudojimo pavyzdys: Lang:t("error.minimum_police_required")
