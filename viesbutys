@@ -1,0 +1,32 @@
+local Translations = {
+    error = {
+        to_far_from_door = 'Jūs esate per toli nuo durų skambučio',
+        nobody_home = 'Namie niekas nėra..',
+        nobody_at_door = 'Prie durų niekas nėra...'
+    },
+    success = {
+        receive_apart = 'Jūs gavote butą',
+        changed_apart = 'Jūs persikėlėte į kitą butą',
+    },
+    info = {
+        at_the_door = 'Kažkas yra prie durų!',
+    },
+    text = {
+        options = '[E] Buto parinktys',
+        enter = 'Įeiti į butą',
+        ring_doorbell = 'Skambinti durų skambutį',
+        logout = 'Atsijungti nuo personažo',
+        change_outfit = 'Pakeisti aprangą',
+        open_stash = 'Atidaryti dėžutę',
+        move_here = 'Judėti čia',
+        open_door = 'Atidaryti duris',
+        leave = 'Išeiti iš buto',
+        close_menu = '⬅ Uždaryti meniu',
+        tennants = 'Nuomininkai',
+    },
+}
+
+Lang = Lang or Locale:new({
+    phrases = Translations,
+    warnOnMissing = true
+})
