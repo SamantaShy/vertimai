@@ -1,0 +1,103 @@
+local Translations = {
+    boosting = {
+        error = {
+            disable_fail = "Jums nepavyko išjungti sekimo prietaiso",
+            no_tracker = "Šis transporto priemonėje neturi sekimo prietaiso",
+            get_away = "Pasitraukite prieš tai pamatant kas nors!",
+            cancelboost = "Jums nepavyko pristatyti transporto priemonės, ir sutartis nutraukta.",
+        },
+        success = {
+            tracker_off = "Sekimo prietaisas išjungtas %{time} sekundėms. Likęs sekimo prietaisų skaičius: %{tracker_left}",
+            youllbepaid = "Jums bus sumokėta, kai sėkmingai atsiimsiu transporto priemonę",
+            gps_dropoff = "GPS atnaujintas su atsiėmimo vieta. Atvežkite automobilį ten.",
+            received_reward = "Gavote savo premiją: %{reward} kripto",
+            disable_tracker = "Sėkmingai pašalintas sekimo prietaisas",
+            vin_dropoff = "GPS atnaujintas su VIN vietove. Eikite ten ir nubraižykite VIN",
+        },
+        blip = {
+            dropoff = "Atsiėmimo vieta",
+            vinscratch = "VIN Vieta"
+        },
+        info = {
+            tracker_backon = "Sekimo prietaisas vėl veikia!",
+            phonenotify = "Stiprinimas..",
+            bought_boost = "Pirktas stiprinimas",
+            rewardboost = "Baigtas stiprinimas",
+        },
+        command = {
+            command_desc = "Suteikite stiprinimą žaidėjui",
+            command_name_ID = "ID",
+            command_help_ID = "Žaidėjo ID",
+            command_name_tier = "Lygis",
+            command_help_tier = "D/C/B/A/A+/S/S+",
+            command_name_vehicle = "Automobilis",
+            command_help_vehicle = "automobilio pavadinimas",
+            incorrect_type = "Neteisingas tipas",
+            incorrect_vehicle = "Neteisingas automobilis",
+            incorrect_tier = "Neteisingas lygis",
+            created = "Stiprinimas sukurtas",
+            player_offline = "Žaidėjas neprisijungęs.",
+            not_inqueue = "Žaidėjas ne staklėse!",
+            incorrect_format = "ID Formatas neteisingas (turi būti skaičius)",
+            missingarg = "Pamiršote argumentą!",
+            command_tier_desc = "Nustato žaidėjo stiprinimo lygį"
+        },
+
+        laptop = {
+            boosting = {
+                success = "Pradėjote stiprinimą!",
+                cops = "Nepakanka pareigūnų paslaugai!",
+                running = "Jau turite vykdomą sutartį!",
+                notfound = "Sutartis nerasta!",
+                notenough = "Nepakanka GNE pradėti sutartį!",
+                busy = "Nepavyko nustatyti automobilio, bandykite vėliau!",
+                error = "Klaida 69420 Bandykite iš naujo!",
+                no_group = "Pirmiausia turite sukurti grupės darbą",
+                group_leader = "Jūs turite būti grupės vadovas, norėdami pradėti darbą"
+            },
+            queue = {
+                success = "Prisijungėte prie staklių!",
+                successquit = "Palikote stakles!",
+                running = "Negalite prisijungti prie staklių, vykdant sutartį!",
+                inqueue = "Jūs jau staklėse!",
+                error = "Klaida 404 Bandykite iš naujo!",
+            },
+            transfer = {
+                success = "Perdavėte sutartį valstybės ID: %{id}",
+                self = "Negalite pervesti sutarties sau!",
+                notfound = "Žaidėjas nerastas!",
+                full = "Valstybės ID turi per daug sutarčių!",
+                error = "Klaida 404 Bandykite iš naujo!",
+            },
+            must_wait = "Turite palaukti 10 sekundžių, norėdami atsisakyti kitos sutarties!",
+            declinedboost = "Atsisakėte stiprinimo!",
+            try_again = "Klaida! Bandykite iš naujo"
+        },
+    },
+    bennys = {
+        warehouse = "Peržiūrėti sandėlio atsargą",
+    },
+    darkweb = {
+        target = {
+            breakcrateopen = "Atidaryti dėžę",
+            opencrate = "Atidaryti dėžę",
+        },
+        need_drill = "Neturite tinkamų įrankių",
+    },
+    main = {
+        checkout = {
+            bank = "Neturite pakankamai pinigų banke!!",
+            full = "Jau turite neatsiskaitytų daiktų sandėlyje!",
+            spaces = "Atrodo, kad negalime rasti vietos jūsų dėžės nuleidimui..",
+            crypto = "Neturite pakankamai kripto!",
+            done_darkweb = "Greičiau, paėmėte dėžę, kol kas nors kitas ją gavo",
+            done_else = "Dabar galite atsiimti daiktus sandėlyje",
+
+        }
+    }
+}
+
+Lang = Lang or Locale:new({
+    phrases = Translations,
+    warnOnMissing = true
+})
