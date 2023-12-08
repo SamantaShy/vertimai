@@ -1,0 +1,156 @@
+local Translations = {
+    label = {
+        ["big"] = "Kuriate didelį paketą...",
+        ["small"] = "Kuriate mažą paketą...",
+        ["goat"] = "Kuriate ožkų paketą...",
+        ["coffee"] = "Kuriate kavos paketą...",
+        ["duty"] = "Darbo pareigos",
+        ["tray"] = "Padėklas",
+        ["storge"] = "Sandelis",
+        ----
+        ["bigcola"] = "Gaminama didelio dydžio kola",
+        ["smallcola"] = "Gaminama mažo dydžio kola",
+        ["coffee2"] = "Gaminama kava",
+        ["bigpotato"] = "Gaminami didelio dydžio bulvytės",
+        ["smallpotato"] = "Gaminamos mažo dydžio bulvytės",
+        ["rings"] = "Gaminami žiedai",
+        ["nuggets"] = "Gaminami nugetai",
+        ["meat"] = "Gaminamas mėsos patiekalas",
+        ["bleederburger"] = "Gaminamas Bleeder Burger",
+        ["bigkingburger"] = "Gaminamas BigKing Burger",
+        ["wrap"] = "Gaminamas kepsnys",
+        ["macaroon"] = "Imate makarūnus iš šaldytuvo",
+        ["clean"] = "Plaukiate rankas",
+        ["Fridge"] = "Šaldytuvas",
+        ["Fries"] = "Bulvytės",
+        ["Drink"] = "Gerimas",
+        ["Meat"] = "Mėsa",
+        ["BurgerStation"] = "Burgerio stotelė",
+        ["PackageStation"] = "Pakuotės stotelė",
+        ["MacaroonStation"] = "Makarūnų stotelė",
+        ["IceCreamStation"] = "Ledo stotelė",
+        ["SellItem"] = "Pardavimo stotelė",
+        ["Clean"] = "Plaukite rankas",
+        -----
+        ["chocolateicecream"] = "Gaminamas šokoladinis ledas",
+        ["vanillaicecream"] = "Gaminamas vanilinis ledas",
+        ["thesmurfsicecream"] = "Gaminamas Sniegelio ledas",
+        ["strawberryicecream"] = "Gaminamas braškių ledas",
+        ["matchaicecream"] = "Gaminamas matcha ledas",
+        ["ubeicecream"] = "Gaminamas ube ledas",
+        ["smurfetteicecream"] = "Gaminamas snieguolės ledas",
+        ["unicornicecream"] = "Gaminamas vienaragio ledas",
+        ----
+        ["packetsell"] = "Užsakymas pristatomas",
+        ["deliver"] = "[E] Pristatyti",
+    },
+    qbmenu = {
+        ["header"] = "Burger Shot pakavimo meniu",
+
+        ["smallcraft"] = "Mažo meniu pakavimas",
+        ["smallcrafttxt"] = "Bleeder Burger - Mažas kolas - Mažas bulvytės",
+
+        ["bigcraft"] = "Didelio meniu pakavimas",
+        ["bigcrafttxt"] = "Big King Burger - Didelis kolas - Didelė bulvytė",
+
+        ["goatcraft"] = "Ožio meniu pakavimas",
+        ["goatcrafttxt"] = "Ožkų kepsnys - Didelis kolas - Žiedai - Nugetai",
+
+        ["coffecraft"] = "Kavos meniu pakavimas",
+        ["coffecrafttxt"] = "Kava - Makarūnai",
+        ------------------
+        ["frieslistmenu"] = "Bulvyčių meniu sąrašas",
+        ["friestmenu"] = "Bulvyčių meniu",
+        ----
+        ["bigpotatoheader"] = "Didelės bulvytės",
+        ["bigpotatotxt"] = "Didelė šaldytų bulvių porcija - Didelė kartoninė dėžė",
+        ----
+        ["smallpotatoheader"] = "Mažos bulvytės",
+        ["smallpotatotxt"] = "Maža šaldytų bulvių porcija - Maža kartoninė dėžė",
+        ----
+        ["ringsheader"] = "Žiedai",
+        ["ringstxt"] = "Šaldyti žiedai - Maža kartoninė dėžė",
+        ----
+        ["nuggetsheader"] = "Nugetai",
+        ["nuggetstxt"] = "Šaldyti nugetai - Didelė kartoninė dėžė",
+        ----
+        ["dutymenu"] = "Darbo meniu",
+        ["dutyonoff"] = "Darbo įjungimas/išjungimas",
+        ----
+        ["Fridge"] = "Šaldytuvas",
+        ["orderıtems"] = "Užsisakyti produktai",
+        ["orderıtemstxt"] = "Užsisakykite naujų ingredientų!",
+        -----
+        ["fridgeheader"] = "Atidaryti šaldytuvą",
+        ["fridgetxt"] = "Žiūrėkite, ką turite sandėlyje",
+        ----
+        ["friesmeatmenu"] = "Bulvyčių mėsos meniu",
+        ["friesmeatheader"] = "Mėsa",
+        ["friesmeatxt"] = "Šaldyta mėsa",
+        ----
+        ["macaroonheader"] = "Makarūnai",
+        ["macaroontxt"] = "Imkite makarūnus",
+        ------
+        ["drinklistmenu"] = "Gėrimų meniu sąrašas",
+        ["bigsizecola"] = "Didelis kolas",
+        ["bigsizecolatxt"] = "Didelis tuščias stiklas",
+        ["smallsizecola"] = "Mažas kolas",
+        ["smallsizecolatxt"] = "Mažas tuščias stiklas",
+        ["coffee"] = "Kava",
+        ["coffeetxt"] = "Tuščias stiklas kavai",
+        ----
+        ["burgermenu"] = "Burgerių meniu",
+        ---
+        ["bleederburgerheader"] = "Bleeder Burger",
+        ["bleederburgertxt"] = "Duona - Mėsa - Padažas - Briauna",
+        ----
+        ["bigkingburgerheader"] = "Big King Burger",
+        ["bigkingburgertxt"] = "Duona - Mėsa - Padažas - Čederis - Pomidoras - Briauna",
+        ----
+        ["wrapheader"] = "Kepalas",
+        ["wraptxt"] = "Lavašas - Mėsa - Padažas - Čederis - Pomidoras - Briauna",
+        ---
+        ["closemenu"] = "Uždaryti meniu",
+        ["backmenu"] = "Atgal į meniu",
+        ----
+        ["icecream"] = "Ledo kremo sąrašas",
+        -----
+        ["chocolateicecream"]  =  "Šokoladinis ledas",
+        ["vanillaicecream"] =  "Vanilinis ledas",
+        ["thesmurfsicecream"] =  "Sniegelio ledas",
+        ["matchaicecream"] =  "Matcha ledas",
+        ["ubeicecream"] =  "Ube ledas",
+        ["smurfetteicecream"] =  "Snieguolės ledas",
+        ["unicornicecream"] =  "Vienaragio ledas",
+        ["strawberryicecream"] =  "Braškių ledas",
+        ---
+        ["packetmenuheader"] =  "Pardavimo meniu",
+        ["smallpacketsellheader"] =  "Mažo dydžio paketo pardavimas",
+        ["bigpacketsellheader"] =  "Didelio dydžio paketo pardavimas",
+    },
+    notify = {
+        ["success"] = "Jūs atidarėte paketą",
+        ["toy"] = "Radei staigmeną pakete",
+        ["needıtem"] = "Trūksta būtinų daiktų.",
+        ["heavy"] = "Jūs per sunkus!",
+        ["notcommand"] = "Negalite naudoti šios komandos",
+        ["cancel"] = "Pakuotė atšaukta",
+        ["createpacket"] = "Sėkminga.",
+        ["duty"] = "Jūs ne darbe.",
+        ["clean"] = "Jūsų rankos nėra švarios.",
+        ["dirt"] = "Jūsų rankos purvinae.",
+        ["dirt2"] = "Jūsų rankos išplautos.",
+        ["finish"] = "Pardavimas baigtas",
+        ["notfinish"] = "Jums reikia būti transporto priemonėje, kad baigtumėte pristatymą",
+        ["notselling"] = "Jūs dar nep pradėjote pardavimus",
+        ["neworder"] = "Jūsų naujo užsakymo adresas pažymėtas",
+        ["ondelivery"] = "Jūs jau pristatote",
+        ["realy"] = "Ar esate pasiruošę pardavimui?",
+        ["deliverynotify"] = "Tai tiek gavote už savo burgerio užsakymą: $",
+    }
+}
+
+Lang = Lang or Locale:new({
+    phrases = Translations,
+    warnOnMissing = true
+})
