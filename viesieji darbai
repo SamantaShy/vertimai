@@ -1,0 +1,34 @@
+Locales ['en'] = {
+	['judge']              	= 'Teisėjas: - ',
+	['escape_attempt']     	= 'Negalite pabėgti. Jūsų viešojo darbo laikotarpis pratęstas.',
+	['remaining_msg']      	= 'Jums liko atlikti ~b~%s~s~ veiksmus, kol galėsite baigti savo tarnybą.',
+	['comserv_msg']       	= '%s nuteistas atlikti %s mėnesius viešojo darbo.',
+	['comserv_finished']  	= '%s baigė savo viešąjį darbą!',
+	['press_to_start']      = 'Paspauskite ~INPUT_CONTEXT~, kad pradėtumėte.',
+	['system_msn']          = '^1SISTEMA',
+	['invalid_player_id_or_actions']      = 'Neteisingas žaidėjo ID arba veiksmų skaičius.',
+	['insufficient_permissions']      = 'Nepakankamos teisės.',
+	['give_player_community']      = 'Suteikti žaidėjui viešąjį darbą',
+	['target_id']      = 'taikinio ID',
+	['action_count_suggested']      = 'veiksmų skaičius [siūlomas: 10-40]',
+	['invalid_player_id']      = 'Neteisingas žaidėjo ID!',
+	['unjail_people']      = 'Išlaisvinti žmones iš kalėjimo'
+}	
+
+
+-- Locales ['es'] = {
+-- 	['judge']              	= 'Fiscalia ',
+-- 	['escape_attempt']     	= 'Tu no puedes escapar. Tu servicio comunitario fue extendido.',
+-- 	['remaining_msg']      	= 'Te quedan ~b~%s~s~ acciones para terminar tu servicio comunitario.',
+-- 	['comserv_msg']       	= '%s fue sentenciado a %s meses de servicio comunitario.',
+-- 	['comserv_finished']  	= '%s a terminado tu servicio comunitario!',
+-- 	['press_to_start']      = 'Presiona ~INPUT_CONTEXT~ para empezar',
+-- 	['system_msn']          = '^1Gobierno',
+-- 	['invalid_player_id_or_actions']      = 'Invalido ID o acciones',
+-- 	['insufficient_permissions']      = 'Permiso Insuficiente',
+-- 	['give_player_community']      = 'Dar servicio comunitario al jugador',
+-- 	['target_id']      = 'id',
+-- 	['action_count_suggested']      = 'Sugerencia de acciones [sugerencia: 10-40]',
+-- 	['invalid_player_id']      = 'ID Invalida!',
+-- 	['unjail_people']      = 'Sacar a las personas de la carcel'
+-- }
