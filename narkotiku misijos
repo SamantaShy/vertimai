@@ -1,0 +1,39 @@
+local Translations = {
+    error = {
+        ["canceled"]                    = "Atšaukta",
+        ["someone_recently_did_this"]   = "Kažkas neseniai tai padarė, bandykite vėl vėliau...",
+        ["cannot_do_this_right_now"]    = "Dabar negalima tai padaryti...",
+        ["you_failed"]                  = "Jūs nepavyko!",
+        ["you_cannot_do_this"]          = "Jūs negalite to padaryti..",
+        ["you_dont_have_enough_money"]  = "Jūs neturite pakankamai pinigų",
+    },
+    success = {
+        ["success.case_has_been_unlocked"]              = "Saugumo dėžė buvo atrakinta",
+        ["you_removed_first_security_case"]     = "Jūs pašalinote pirmąją dėžės saugumo sluoksnį",
+        ["you_got_paid"]                        = "Jūs buvote apmokėtas",
+        ["send_email_right_now"]                 = "Aš jums dabar atsiųsiu el. laišką!",
+    },
+    info = {
+        ["talking_to_boss"]             = "Kalbėjimas su Joseph...",
+        ["food"]             = "Imamas maistas...",
+        ["talking_to_niki"]             = "Kalbėjimas su Niki...",
+        ["unlocking_case"]              = "Dėžės atrakinimas...",
+        ["checking_quality"]            = "Kokybės tikrinimas",
+    },
+    mailstart = {
+        ["sender"]                      = "Nežinomas",
+        ["subject"]                     = "Transporto priemonės vieta",
+        ["message"]                     = "Atnaujinau jūsų GPS vietos žymėjimą, kuriame yra informacija apie transporto priemonę, kurioje yra diplomatė. Išgriebkite, kas viduje, ir atneškite man. Jums suteikiau specialų raktą, skirtą pašalinti pirmąjį dėžės saugumo sluoksnį.",
+    },
+    mail = {
+        ["sender"]                      = "Nežinomas",
+        ["subject"]                     = "Prekių surinkimas",
+        ["message"]                     = "Atrodo, kad turite prekių, dėžė turėtų atrakinti automatiškai po 1 minutės nuo to momento, kai pašalinote jos pirmąjį saugumo sluoksnį. Baigus, gausite raktą į atsitiktinį laboratoriją.",
+    },    
+}
+
+Lang = Locale:new({
+    phrases = Translations,
+    warnOnMissing = true
+})
+
