@@ -1,0 +1,56 @@
+Loc["en"] = {
+    error = {
+        ["someone_already_sitting"] = "Jau sėdi kas nors kitas ten..",
+        ["not_clocked_in"] = "Neprisiregistravęs!",
+        ["cancelled"] = "Atšaukta",
+        ["in_the_way"] = " kelyje",
+    },
+    success = {
+        ["success_washed_hands"] = "Jūs nusiplovėte rankas!",
+        ["retrieved"] = "Atsiimta ",
+        ["job_vehicle_map"] = "Darbo transportas pažymėtas žemėlapyje",
+    },
+    info = {
+
+    },
+    targetinfo = {
+        ["sit_down"] = "Atsisėskite",
+        ["wash_hands"] = "Plaukite rankas",
+        ["open_counter"] = "Atidarykite skaitiklį",
+        ["charge_customer"] = "Apmokekite klientą",
+        ["open_storage"] = "Atidarykite sandėlį",
+        ["prepare_coffee"] = "Paruoškite kavą",
+        ["prepare_slush"] = "Paruoškite ledinę",
+        ["grab_soda"] = "Paimkite sodos",
+        ["grab_food"] = "Paimkite maisto",
+        ["open_stash"] = "Atidarykite slaptą vietą",
+        ["toggle_duty"] = "Perjungti pareigas",
+        ["open_bossmenu"] = "Atidarykite vadovo meniu",
+        ["open_shop"] = "Atidarykite parduotuvę",
+    },
+    email = {
+
+    },
+    menu = {
+        ["close"] = "Uždaryti",
+        ["back"] = "Atgal",
+        ["slush_menu"] = "Ledinės meniu",
+        ["drink_menu"] = "Gėrimų meniu",
+        ["job_vehicles"] = "Darbo transportai",
+        ["job_garage"] = "Darbo garažas",
+        ["vehicle"] = "Transportas: ",
+        ["plate"] = "<br> Valstybinis numeris: [",
+        ["remove_vehicle"] = "Išimti transportą",
+        ["vehicle_out_of_garage"] = "Transportas išvežtas iš garažo",
+    },
+    commands = {
+
+    },
+    progressbar = {
+        ["washing_hands"] = 'Plaunamos rankos',
+        ["making"] = "Gamina ",
+        ["drinking"] = "Geriamas ",
+        ["eating"] = "Valgomas ",
+    },
+    warning = {},
+}
