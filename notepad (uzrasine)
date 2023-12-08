@@ -1,0 +1,16 @@
+Loc["en"] = {
+    error = {},
+    success = {},
+    info = {},
+    targetinfo = { ["read"] = "Perskaityti pastabą", },
+    text = { ["enter_message"] = "Įveskite savo žinutę čia",},
+    menu = {
+        ["make_a_note"] = "Padarykite pastabą",
+        ["message"] = "Žinutė:",
+        ["written_by"] = "Parašė: ",
+        ["tear_up_note"] = "Perplėšykite pastabą",
+    },
+    commands = {},
+    progressbar = {},
+    warning = {},
+}
