@@ -1,0 +1,26 @@
+local Translations = {
+    target = {
+        label = 'Nardykite į vidų'
+    },
+    notifies = {
+        you_got = 'Nuradote į šiukšlyną ir gavote %{items}',
+        got_nothing = 'Nuradote į šiukšlyną ir nieko negavote',
+        failed_minigame = 'Nepavyko nurdyti į šiukšlyną, nieko negavote.',
+        canled_progress = 'Atšaukėte narimą.',
+        hurt_yourself = 'Nukentėjote nurindami į šiukšlyną.',
+        already_dived = 'Šis šiukšliadėžės jau buvo nurdytas.',
+    },
+    progress = {
+        diving = 'Narimas šiukšlynų',
+    },
+    police = {
+        message = 'Nusikalstama veikla',
+        code = '10-00',
+        bliptitle = 'Šiukšliadėžių narimas',
+    }
+}
+
+Lang = Lang or Locale:new({
+    phrases = Translations,
+    warnOnMissing = true
+})
