@@ -1,0 +1,51 @@
+local Translations = {
+     error = {
+         need_more_exp = 'Jums reikia daugiau patirties, norint pagaminti šį daiktą!',
+         need_more_mat = 'Jūs neturite pakankamai medžiagų',
+         crafting_is_restricted = 'Šio daikto gamyba yra apribota.',
+         crafting_failed = 'Gamyba nepavyko! ^.^',
+         not_authorized = 'Jūs neturite leidimo tai daryti'
+     },
+     success = {
+         successful_crafting = 'Gamyba buvo sėkminga'
+     },
+     info = {
+         mr = 'Ponas',
+         mrs = 'Ponia',
+     },
+     mail = {
+         sender = 'Gamybos Įmonė',
+         subject = 'Medžiagų sąrašas',
+         message = 'Gerb. %s %s, <br /><br />Medžiagų sąrašas, reikalingas gamybai (%s): <br /><br /> * Sėkmės rodiklis: %d, <br /> * Ribotas: %s <br />',
+         level = ' * Lygis: %s <br />',
+         yes = 'Taip',
+         no = 'Ne',
+         tnx_message = '<br /><br />Džiaugiames turėdami jus!',
+         materials_list_header = '<br /># Medžiagų sąrašas:',
+         materials_list = '<br />- %s %dx'
+     },
+     menu = {
+         back = 'Atgal',
+         leave = 'Išeiti',
+         player_crafting_information = 'Jūsų Gamybos Informacija',
+         -- craft menu
+         item_name = 'Daikto Pavadinimas',
+         craft = 'Gaminti',
+         check_mat_list = 'Patikrinti Medžiagų Sąrašą',
+ 
+         -- player crafting information menu
+         your_name = 'Jūsų Vardas',
+         your_job = 'Jūsų Profesija',
+         job_sub = 'Vardas: %s | Laipsnis: %s',
+         crafting_exp = 'Jūsų Gamybos patirtis',
+ 
+         -- main menu
+         main_menu_header = 'Gamybos Priedų Darbastalis'
+     }
+ }
+ 
+ Lang = Locale:new({
+     phrases = Translations,
+     warnOnMissing = true
+ })
+ 
