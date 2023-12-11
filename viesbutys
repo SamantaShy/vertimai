@@ -1,8 +1,8 @@
 local Translations = {
     error = {
         to_far_from_door = 'Jūs esate per toli nuo durų skambučio',
-        nobody_home = 'Namie niekas nėra..',
-        nobody_at_door = 'Prie durų niekas nėra...'
+        nobody_home = 'Namuose nieko nėra..',
+        nobody_at_door = 'Prie durų nieko nėra...'
     },
     success = {
         receive_apart = 'Jūs gavote butą',
@@ -14,7 +14,7 @@ local Translations = {
     text = {
         options = '[E] Buto parinktys',
         enter = 'Įeiti į butą',
-        ring_doorbell = 'Skambinti durų skambutį',
+        ring_doorbell = 'Skambinti durų skambučiu',
         logout = 'Atsijungti nuo personažo',
         change_outfit = 'Pakeisti aprangą',
         open_stash = 'Atidaryti dėžutę',
