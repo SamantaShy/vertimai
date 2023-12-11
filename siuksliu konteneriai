@@ -1,22 +1,22 @@
 local Translations = {
     target = {
-        label = 'Nardykite į vidų'
+        label = 'Patikrinti šiukšliadėžę'
     },
     notifies = {
-        you_got = 'Nuradote į šiukšlyną ir gavote %{items}',
-        got_nothing = 'Nuradote į šiukšlyną ir nieko negavote',
-        failed_minigame = 'Nepavyko nurdyti į šiukšlyną, nieko negavote.',
-        canled_progress = 'Atšaukėte narimą.',
-        hurt_yourself = 'Nukentėjote nurindami į šiukšlyną.',
-        already_dived = 'Šis šiukšliadėžės jau buvo nurdytas.',
+        you_got = 'Radote %{items}',
+        got_nothing = 'Deja, nieko neradote',
+        failed_minigame = 'Nepavyko patikrinti šiukšliaždėžės.',
+        canled_progress = 'Atšaukėte patikrinimą.',
+        hurt_yourself = 'Susižeidėte tikrinant šiukšliadėžę.',
+        already_dived = 'Ši šiukšliadėžė jau buvo patikrinta.',
     },
     progress = {
-        diving = 'Narimas šiukšlynų',
+        diving = 'Šiukšliadėžės patikrinimas',
     },
     police = {
         message = 'Nusikalstama veikla',
         code = '10-00',
-        bliptitle = 'Šiukšliadėžių narimas',
+        bliptitle = 'Šiukšliadėžių tikrinimas',
     }
 }
 
