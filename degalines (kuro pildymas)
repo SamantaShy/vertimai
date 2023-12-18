@@ -1,0 +1,247 @@
+local Translations = {
+    -- Fuel
+    set_fuel_debug = "Nustatykite kurą į:",
+    cancelled = "Atšauktas.",
+    not_enough_money = "Jūs neturite pakankamai pinigų!",
+    not_enough_money_in_bank = "Jūs neturite pakankamai pinigų savo banke!",
+    not_enough_money_in_cash = "Jūs neturite pakankamai pinigų savo kišenėje!",
+    more_than_zero = "Turite įpilti daugiau nei 0 l degalų!",
+    emergency_shutoff_active = "Šiuo metu siurbliai išjungiami per avarinio išjungimo sistemą.",
+    nozzle_cannot_reach = "Purkštukas negali pasiekti taip toli!",
+    station_no_fuel = "Šioje stotyje degalai!",
+    station_not_enough_fuel = "Stotyje nėra tiek kuro!",
+    show_input_key_special = "Paspauskite [G], būdami šalia transporto priemonės, kad įpiltumėte degalų!",
+    tank_cannot_fit = "Jūsų bakas to nesutalpins!",
+    tank_already_full = "Jūsų automobilis jau pilnas!",
+    need_electric_charger = "Man reikia eiti prie elektros įkroviklio!",
+    cannot_refuel_inside = "Jūs negalite pilti degalų iš automobilio vidaus!",
+    
+    -- 2.1.2 -- Reserves Pickup ---
+    fuel_order_ready = "Jūsų kuro užsakymą galima atsiimti! Pažvelkite į savo GPS, kad surastumėte pikapą!",
+    draw_text_fuel_dropoff = "[E] Išleidžiamas sunkvežimis",
+    fuel_pickup_success = "Jūsų rezervai užpildyti: %sL",
+    fuel_pickup_failed = "Ron Oil ką tik išleido kurą į jūsų stotį!",
+    trailer_too_far = "Priekaba nepritvirtinta prie sunkvežimio arba yra per toli!",
+
+    -- 2.1.0
+    no_nozzle = "Jūs neturite antgalio!",
+    vehicle_is_damaged = "Transporto priemonė per daug apgadinta, kad būtų galima papildyti degalų!",
+    vehicle_too_far = "Jūs per toli, kad galėtumėte degaluoti šią transporto priemonę!",
+    inside_vehicle = "Jūs negalite pilti degalų iš automobilio vidaus!",
+    you_are_discount_eligible = "Jei eisite budėti, galite gauti „..Config.Emergency Services Discount['nuolaida']...“ nuolaidą!",
+    no_fuel = "Jokio kuro..",
+
+    -- Electric
+    electric_more_than_zero = "Turite įkrauti daugiau nei 0 kW!",
+    electric_vehicle_not_electric = "Jūsų transporto priemonė ne elektrinė!",
+    electric_no_nozzle = "Jūsų transporto priemonė ne elektrinė!",
+
+    -- Phone --
+    electric_phone_header = "Elektros įkroviklis",
+    electric_phone_notification = "Bendra elektros kaina: USD",
+    fuel_phone_header = "Degalinė",
+    phone_notification = "Bendra kaina: $",
+    phone_refund_payment_label = "Grąžinti pinigus degalinei!",
+
+    -- Stations
+    station_per_liter = "/ Litras!",
+    station_already_owned = "Ši vieta jau priklauso!",
+    station_cannot_sell = "Negalite parduoti šios vietos!",
+    station_sold_success = "Sėkmingai pardavėte šią vietą!",
+    station_not_owner = "Vieta jums nepriklauso!",
+    station_amount_invalid = "Suma neteisinga!",
+    station_more_than_one = "Turite pirkti daugiau nei 1L!",
+    station_price_too_high = "Ši kaina per didelė! [MAX: 16 USD]",
+    station_price_too_low = "Ši kaina per maža! [MIN: 2 USD]",
+    station_name_invalid = "Šis pavadinimas neteisingas!",
+    station_name_too_long = "Name cannot be longer than "..Config.NameChangeMaxChar.." characters.",
+    station_name_too_short = "Name must be longer than "..Config.NameChangeMinChar.." characters.",
+    station_withdraw_too_much = "Negalite atsiimti daugiau, nei turi stotis!", 
+    station_withdraw_too_little = "Negalite atsiimti mažiau nei 1 USD!",
+    station_success_withdrew_1 = "Sėkmingai išėmė $",
+    station_success_withdrew_2 = " iš šios stoties balanso!", -- Palikite erdvę @ priekyje!
+    station_deposit_too_much = "Negalite įnešti daugiau nei turite!", 
+    station_deposit_too_little = "Negalite įnešti mažiau nei 1 USD!",
+    station_success_deposit_1 = "Sėkmingai pervesta $",
+    station_success_deposit_2 = " į šios stoties balansą!", -- Leave the space @ the front!
+    station_cannot_afford_deposit = "Jūs negalite sau leisti įnešti $",
+    station_shutoff_success = "Šios vietos uždarymo vožtuvo būsena sėkmingai pakeista!",
+    station_fuel_price_success = "Kuro kaina sėkmingai pakeista į $",
+    station_reserve_cannot_fit = "Rezervuarai to netelpina!",
+    station_reserves_over_max =  "You cannot purchase this amount as it will be great than the maximum amount of "..Config.MaxFuelReserves.." Liters",
+    station_name_change_success = "Pavadinimas sėkmingai pakeistas į:", -- Leave the space @ the end!
+    station_purchased_location_payment_label = "Įsigytos degalinės vieta: ",
+    station_sold_location_payment_label = "Parduotos degalinė Vieta: ",
+    station_withdraw_payment_label = "Iš Degalinės išėmė pinigus. Vieta: ",
+    station_deposit_payment_label = "Pinigus įnešė į degalinę. Vieta: ",
+    -- All Progress Bars
+    prog_refueling_vehicle = "Degalų papildymas automobiliu..",
+    prog_electric_charging = "Įkraunama..",
+    prog_jerry_can_refuel = "Degalų papildymas Jerry Can..",
+    prog_syphoning = "Sifono kuras..",
+
+    -- Menus
+    
+    menu_header_cash = "Grynieji pinigai",
+    menu_header_bank = "bankas",
+    menu_header_close = "Atšaukti",
+    menu_pay_with_cash = "Atsiskaityti grynaisiais. \nTurite: $",
+    menu_pay_with_bank = "Mokėti su banku.", 
+    menu_refuel_header = "Degalinė",
+    menu_refuel_accept = "Norėčiau nusipirkti kuro.",
+    menu_refuel_cancel = "Tiesą sakant, aš nebenoriu kuro.",
+    menu_pay_label_1 = "Benzinas @ ",
+    menu_pay_label_2 = " / L",
+    menu_header_jerry_can = "Jerry Can",
+    menu_header_refuel_jerry_can = "Įpilkite kuro Jerry Can",
+    menu_header_refuel_vehicle = "Degalų papildymas Transporto priemonė",
+
+    menu_electric_cancel = "Tiesą sakant, aš nebenoriu įkrauti savo automobilio.",
+    menu_electric_header = "Elektros įkroviklis",
+    menu_electric_accept = "Norėčiau mokėti už elektrą.",
+    menu_electric_payment_label_1 = "elektra @ ",
+    menu_electric_payment_label_2 = " / KW",
+
+
+    -- Station Menus
+
+    menu_ped_manage_location_header = "Tvarkyti šią vietą",
+    menu_ped_manage_location_footer = "Jei esate savininkas, galite valdyti šią vietą.",
+
+    menu_ped_purchase_location_header = "Įsigykite šią vietą – (2 200 000 USD)",
+    menu_ped_purchase_location_footer = "Jei ši vieta niekam nepriklauso, galite ją įsigyti.",
+
+    menu_ped_emergency_shutoff_header = "Perjungti avarinį išjungimą",
+    menu_ped_emergency_shutoff_footer = "Avarinės situacijos atveju išjunkite degalus. \n Siurbliai šiuo metu yra",
+    
+    menu_ped_close_header = "Atšaukti pokalbį",
+    menu_ped_close_footer = "Tiesą sakant, aš nenoriu daugiau nieko diskutuoti.",
+
+    menu_station_reserves_header = "Pirkti rezervus už",
+    menu_station_reserves_purchase_header = "Pirkite rezervus už: $",
+    menu_station_reserves_purchase_footer = "Taip, noriu nusipirkti kuro atsargų už dolerius",
+    menu_station_reserves_cancel_footer = "Tiesą sakant, aš nenoriu pirkti daugiau atsargų!",
+    
+    menu_purchase_station_header_1 = "Bendra kaina bus: $",
+    menu_purchase_station_header_2 = " įskaitant mokesčius.",
+    menu_purchase_station_confirm_header = "Patvirtinti",
+    menu_purchase_station_confirm_footer = "Noriu įsigyti šią vietą už $",
+    menu_purchase_station_cancel_footer = "Tiesą sakant, aš nebenoriu pirkti šios vietos. Ta kaina yra kvaila!",
+
+    menu_sell_station_header = "Parduoti ",
+    menu_sell_station_header_accept = "Parduodu degalinę",
+    menu_sell_station_footer_accept = "Taip, noriu parduoti šią vietą už $",
+    menu_sell_station_footer_close = "Tiesą sakant, daugiau neturiu apie ką diskutuoti.",
+
+    menu_manage_header = "Valdymas",
+    menu_manage_reserves_header = "Kuro atsargos \n",
+    menu_manage_reserves_footer_1 =  " Litrai iš ",
+    menu_manage_reserves_footer_2 =  " Litrai \nDaugiau atsargų galite įsigyti žemiau!",
+    
+    menu_manage_purchase_reserves_header = "Įsigykite daugiau degalų atsargų",
+    menu_manage_purchase_reserves_footer = "Noriu nusipirkti daugiau degalų atsargų už $",
+    menu_manage_purchase_reserves_footer_2 = " / L!",
+
+    menu_alter_fuel_price_header = "Pakeisti kuro kainą",
+    menu_alter_fuel_price_footer_1 = "Noriu pakeisti degalų kainą savo Degalinėje! \nŠiuo metu tai yra $",
+    
+    menu_manage_company_funds_header = "Tvarkyti įmonės lėšas",
+    menu_manage_company_funds_footer = "Noriu valdyti šios vietos lėšas.",
+    menu_manage_company_funds_header_2 = "Lėšų valdymas",
+    menu_manage_company_funds_withdraw_header = "Atsiimti lėšas",
+    menu_manage_company_funds_withdraw_footer = "Išsiimti lėšas iš degalinės sąskaitos.",
+    menu_manage_company_funds_deposit_header = "Indėlių lėšos",
+    menu_manage_company_funds_deposit_footer = "Įnešti lėšas į Stoties sąskaitą.",
+    menu_manage_company_funds_return_header = "Grįžti",
+    menu_manage_company_funds_return_footer = "Noriu dar kai ką aptarti!",
+
+    menu_manage_change_name_header = "Pakeiskite vietos pavadinimą",
+    menu_manage_change_name_footer = "Noriu pakeisti vietos pavadinimą.",
+
+    menu_manage_sell_station_footer = "Parduok degalinę už $",
+
+    menu_manage_close = "Tiesą sakant, aš neturiu daugiau apie ką diskutuoti!", 
+
+    -- Jerry Can Menus 
+    menu_jerry_can_purchase_header = "Įsigykite Kanistrą už $",
+    menu_jerry_can_footer_full_gas = "Jūsų Kanistras yra pilnas!",
+    menu_jerry_can_footer_refuel_gas = "Užpildykite savo kanistrą!",
+    menu_jerry_can_footer_use_gas = "Panaudokite kanistrą ir papildykite transporto priemonę!",
+    menu_jerry_can_footer_no_gas = "Jūsų kanistre nėra degalų!",
+    menu_jerry_can_footer_close = "Tiesą sakant, aš nebenoriu kanistro.",
+    menu_jerry_can_close = "Tiesą sakant, aš nebenoriu to naudoti.",
+
+    -- Syphon Kit Menus
+    menu_syphon_kit_full = "Your Syphon Kit is full! It only fits " .. Config.SyphonKitCap .. "L!",
+    menu_syphon_vehicle_empty = "Šios transporto priemonės degalų bakas tuščias.",
+    menu_syphon_allowed = "Pavokite kurą iš nieko neįtariančios aukos!",
+    menu_syphon_refuel = "Panaudokite pavogtą benziną ir papildykite transporto priemonę!",
+    menu_syphon_empty = "Panaudokite pavogtą benziną ir papildykite transporto priemonę!",
+    menu_syphon_cancel = "Tiesą sakant, aš nebenoriu to naudoti. Aš užverčiau naują lapą!",
+    menu_syphon_header = "Sifonas",
+    menu_syphon_refuel_header = "Degalų papildymas",
+
+
+    -- Input --
+    input_select_refuel_header = "Pasirinkite, kiek degalų pripildyti.",
+    input_refuel_submit = "Degalų papildymas Transporto priemonei",
+    input_refuel_jerrycan_submit = "Įpilkite kuro į kanistrą",
+    input_max_fuel_footer_1 = "Iki ",
+    input_max_fuel_footer_2 = "L degalų.",
+    input_insert_nozzle = "Įdėkite antgalį", -- Used for Target as well!
+
+    input_purchase_reserves_header_1 = "Pirkimo rezervai \nDabartinė kaina: $",
+    input_purchase_reserves_header_2 = Config.FuelReservesPrice .. " / Liter  \nCurrent Reserves: ",
+    input_purchase_reserves_header_3 = " Litrai \nVisa rezervo kaina: $",
+    input_purchase_reserves_submit_text = "Pirkite rezervus",
+    input_purchase_reserves_text = 'Pirkite kuro atsargas.',
+
+    input_alter_fuel_price_header_1 = "Keisti kuro kainą \nDabartinė kaina: $",
+    input_alter_fuel_price_header_2 = " / Litras",
+    input_alter_fuel_price_submit_text = "Keisti kuro kainą",
+
+    input_change_name_header_1 = "Keisti ",
+    input_change_name_header_2 = " Vardas.",
+    input_change_name_submit_text = "Pateikti vardo pakeitimą",
+    input_change_name_text = "Naujas vardas..",
+
+    input_withdraw_funds_header = "Išsiimti lėšas \nDabartinis likutis: $",
+    input_withdraw_submit_text = "Išimti",
+    input_withdraw_text = "Išsiimti lėšas",
+
+    input_deposit_funds_header = "Indėlių lėšos \nDabartinis likutis: $",
+    input_deposit_submit_text = "Užstatas",
+    input_deposit_text = "Indėlių lėšos",
+
+    -- Target
+    grab_electric_nozzle = "Paimkite elektrinį antgalį",
+    insert_electric_nozzle = "Įdėkite elektrinį antgalį",
+    grab_nozzle = "Patraukite antgalis",
+    return_nozzle = "Grąžinkite antgalis",
+    grab_special_nozzle = "Paimkite specialų antgalį",
+    return_special_nozzle = "Grąžinimo specialus antgalis",
+    buy_jerrycan = "Pirkite kanistrą",
+    station_talk_to_ped = "Pakalbėkite apie Degalinę",
+
+    -- Jerry Can
+    jerry_can_full = "Jūsų kanistras pilna!",
+    jerry_can_refuel = "Užpildykite savo kanistrą!",
+    jerry_can_not_enough_fuel = "kanistre nėra tiek daug degalų!",
+    jerry_can_not_fit_fuel = "kanistre negali tilpti tiek degalų!",
+    jerry_can_success = "Sėkmingai užpildytas kanistras!",
+    jerry_can_success_vehicle = "Sėkmingai papildė transporto priemonę kanistras!",
+    jerry_can_payment_label = "Nusipirkau kanistrą.",
+
+    -- Syphoning
+    syphon_success = "Sėkmingai perduota iš transporto priemonės!",
+    syphon_success_vehicle = "Sifono rinkinys sėkmingai papildytas transporto priemone.",
+    syphon_electric_vehicle = "Ši transporto priemonė yra elektrinė!",
+    syphon_no_syphon_kit = "Jums reikia kažko, su kuo siurbti degalus.",
+    syphon_inside_vehicle = "Jūs negalite išsiurbti iš transporto priemonės vidaus!",
+    syphon_more_than_zero = "Turite pasisavinti daugiau nei 0L!",
+    syphon_kit_cannot_fit_1 = "Negalite tiek daug siurbti, į kanistrą netilps! Gali tilpti tik: ",
+    syphon_kit_cannot_fit_2 = " Litrų.",
+    syphon_not_enough_gas = "Jūs neturite pakankamai degalų, kad galėtumėte papildyti degalų kiekį!",
+    syphon_dispatch_string = "(10-90) – degalų pasisavinimas",
+}
+Lang = Locale:new({phrases = Translations, warnOnMissing = true})
