@@ -1,11 +1,11 @@
 Locales['en'] = {
-    cmdcreatechair = 'Create Chair',
-    noaccess = "You don't have permission to do this!",
-    setpos = "Set Position",
-    sit = "Sit",
-    selectanim = "Style",
-    presskey = "~INPUT_CONTEXT~ - Leave\n~INPUT_VEH_HEADLIGHT~ - Style",
-    remove = "Remove",
-    removeconfirm = "Are you sure you want to remove this chair?",
+    cmdcreatechair = 'Sukurti kėdę',
+    noaccess = "Jūs neturite leidimo tai daryti!",
+    setpos = "Pasirinkti atsisėdimą",
+    sit = "Atsisėsti",
+    selectanim = "Stilius",
+    presskey = "~INPUT_CONTEXT~ – Atsistoti\n~INPUT_VEH_HEADLIGHT~ – Stilius",
+    remove = "Pašalinti",
+    removeconfirm = "Ar tikrai norite pašalinti šią kėdę?",
 
 }
