@@ -1,0 +1,75 @@
+--------------------------------------
+--<!>-- ASTUDIOS | DEVELOPMENT --<!>--
+--------------------------------------
+-- Language settings
+Language = {
+    Duty = {
+        ['clock_in'] = 'Clock In',
+    },
+    Progressbar = {
+        ['getting_money'] = 'Getting the money...',
+        ['duty_status'] = 'Changing Duty Status...',
+        ['standing_guard'] = 'Standing guard...',
+        ['delivering_money'] = 'Delivering Money...',
+    },
+    Success = {
+        ['guard_task_complete'] = 'Guard Task Complete',
+        ['bank_task_complete'] = 'Money Transporation Task Complete',
+    },
+    Info = {
+        ['place_the_money_in_truck'] = 'Place the money in the truck',
+        ['transportation_task_delivery'] = 'Deliver the money to Union Depository',
+        ['starting_guard_task'] = 'Get to shown location and stand guard at that location for '..Config.Tasks.GuardTask.GuardTime..' minutes',
+        ['starting_transportation_task'] = 'Get to shown location and pick up the package',
+    },
+    Error = {
+        ['already_delivering'] = 'You are already doing a delivery, finish it and then start a new one',
+        ['no_item'] = 'You don\'t have the delivery bag',
+        ['stockade_not_close_enough'] = 'The Bank Truck is not close enought to the bank',
+        ['not_onduty'] = 'You\'re not on duty',
+        ['not_enough_money'] = 'You do not have enough money to buy a mystery box',
+    },
+    Menu = {
+        ['wardrobe'] = 'Wardrobe',
+        ['wardrobeicon'] = 'fas fa-shirt',
+        ['duty'] = 'Clock In / Out',
+        ['dutyicon'] = 'far fa-clipboard',
+        ['dutytext'] = 'Don\'t forget to clock in and out!',
+        ['exit'] = 'Return',
+        ['exiticon'] = 'fas fa-circle-arrow-left',
+        ['garage'] = 'Garage',
+        ['garageicon'] = 'fas fa-car',
+        ['jobclothing'] = 'Put on job outfit',
+        ['jobclothingicon'] = 'fas fa-check',
+        ['outfits'] = 'Outfits',
+        ['outfitsicon'] = 'fas fa-cloud',
+        ['park'] = 'Park Vehicle',
+        ['parkicon'] = 'fas fa-parking',
+        ['personallocker'] = 'Personal Locker',
+        ['personallockericon'] = 'fas fa-box-open',
+        ['guardtask'] = 'Stand Security Guard',
+        ['guardtaskicon'] = 'fas fa-user-shield',
+        ['transporttask'] = 'Money Transportation',
+        ['transporttaskicon'] = 'fas fa-truck',
+        ['tasks'] = 'Tasks',
+        ['tasksicon'] = 'fas fa-tasks',
+    },
+    Targeting = {
+        ['bossmenu'] = 'Boss Menu',
+        ['bossmenuicon'] = 'fas fa-chart-simple',
+        ['wardrobe'] = 'Wardrobe',
+        ['wardrobeicon'] = 'fas fa-shirt',
+        ['garage'] = 'Garage',
+        ['garageicon'] = 'fas fa-car',
+        ['storage'] = 'Storage',
+        ['toggleduty'] = 'Toggle Duty',
+        ['toggledutyicon'] = 'fas fa-clipboard',
+        ['tasks'] = 'Tasks',
+        ['tasksicon'] = 'fas fa-tasks',
+    },
+    Actions = {
+        ['start_guardtask'] = 'Press [E] to start the task',
+        ['start_pickuptask'] = 'Press [E] to start the pickup task',
+        ['start_deliverytask']  = 'Press [E] to start the delivery task',
+    },
+}
