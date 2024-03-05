@@ -1,4 +1,4 @@
-Locale = {}
+Locale = {en}
 Locale['de'] = { -- de 
     success_bought_shell = 'Sie haben eine Fahrzeughülle (Blaupause) gekauft',
 	install_engine = 'Sie müssen zuerst den Motor installieren',
@@ -23,26 +23,26 @@ Locale['de'] = { -- de
 }
 
 Locale['en'] = { -- en 
-    success_bought_shell = 'You bought a vehicle shell (Blueprint)',
-	install_engine = 'You have to install engine first',
-	install_tranny = 'You have to install Transmission first',
-    install_brake = 'You have to install brakes first',
-    install_seat = 'You have to install Vehicle Seat first',
-    far_away = 'You are too far away to vehicle',
-    partscancel = 'Using the Parts has been canceled',
-    installsuccess = 'Parts has been install successfully',
-    already_install = 'Parts has been install already',
-    not_inzone = 'Project Cars Building is only allowed in Project cars Zone',
-    receive_shell_chop = 'You receive a Vehicle Shell',
-    alreadygarage = 'You Already have a garage',
-    notenoughmoney = 'Not enough money Cabron',
-    partnotmatched = 'This part is not fit to this vehicle',
-    cardeleted = 'Project car has been deleted',
-    noperms = 'You dont have a Permission to Delete the Vehicle',
-    orderlistrefresh = ' Job Order list has been refresh',
-    cantrelease = 'You dont have a stock for this Vehicle',
-    novehiclesingarage = 'Garage is Empty',
-    orderjobrelease = 'Successfully Release the Vehicle Order - You got paid ',
+    success_bought_shell = 'Nusipirkai mašinos kėbulo (Brėžinį)',
+	install_engine = 'Pirma reikia įdėti Variklį',
+	install_tranny = 'Pirma reikia įdėti Bėgių dėžę',
+    install_brake = 'Pirma reikia įdėti Stabdžius',
+    install_seat = 'Pirma reikia įdėti Sėdynes',
+    far_away = 'Esi per toli automobilio',
+    partscancel = 'Atšaukei Dalių panaudojimą',
+    installsuccess = 'Sėkmingai uždėjai Dalis',
+    already_install = 'Dalys sėkmingai uždėtos',
+    not_inzone = 'Vieta nėra tinkama Mašinos surinkimui',
+    receive_shell_chop = 'Gavai Mašinos kėbulą',
+    alreadygarage = 'Jau turi garažą',
+    notenoughmoney = 'Nepakanka pinigų',
+    partnotmatched = 'Ši Dalis netinka šiam automobiliui',
+    cardeleted = 'Automobilis buvo ištrintas',
+    noperms = 'Neturi galios ištrinti automobilį',
+    orderlistrefresh = 'Darbų užsakymo sąrašas atnaujintas',
+    cantrelease = 'Neturite šio automobilio atsargų',
+    novehiclesingarage = 'Garažas tuščias',
+    orderjobrelease = 'Sėkmingai įvykdėte automobilio užsakymą - Jums buvo sumokėta: ',
 }
 
 Locale['es'] = { -- es (to be update)
